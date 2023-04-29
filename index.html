@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,41 +7,44 @@
     <title>Weather app</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-<div class="card">
-    <div class="search">
-        <input type="text" placeholder="enter city name", spellcheck="false">
-        <button>
-            <img src="images/search.png" alt="">
-        </button>
-    </div>
-    <div class="weather">
-        <img src="images/rain.png" class="weather-icon" alt="">
-        <h1 class="temp">22°C</h1>
-        <h2 class="city">Kraków</h2>
-        <div class="details">
-            <div class="col">
-                <img src="images/humidity.png" alt="">
-                <div>
-                    <p class="humidity">50%</p>
-                    <p>Humidity</p>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" , spellcheck="false">
+            <button>
+                <img src="images/search.png" alt="">
+            </button>
+        </div>
+        <div class="error">
+            <p>
+                Invalid city name
+            </p>
+        </div>
+        <div class="weather">
+            <img class="weather-icon" alt="">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <img src="images/wind.png" alt="">
-                <div>
-                    <p class="wind">1,2 m/s</p>
-                    <p>Wind speed</p>
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind speed</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </body>
-<script src="js.js"></script> 
+<script src="js.js"></script>
+
 </html>
-
-
-
-
